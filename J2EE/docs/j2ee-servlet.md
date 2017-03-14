@@ -15,6 +15,3 @@ J2EE
     -web.xml file present in webapp --WEB-INF in maven project  or webcontent-WEB-INF folder in the dynamic web project.
     * servlet mapping defined here
     *
-
-
-  
