@@ -7,6 +7,8 @@ This will cover below Topics to cover J2EE concepts
 #### Multitiered Applications
 >>  Application logic is divided into components according to function, and the various application components that make up a J2EE application are installed on different machines depending on the tier in the multitiered J2EE environment to which the application component belongs.
 
+![J2EE Archietecture Diagram ](images/arch.jpg)
+
 ###### Components Are
 * Client tier runs on client machine (Dynamic html pages)
 * Web tier run on J2EE machine (JSP pages, Servlet)
