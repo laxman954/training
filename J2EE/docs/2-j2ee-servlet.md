@@ -15,3 +15,13 @@ J2EE
     -web.xml file present in webapp --WEB-INF in maven project  or webcontent-WEB-INF folder in the dynamic web project.
     * servlet mapping defined here
     *
+
+#### Servlet Container
+  > Part of web server interacts with servlet for handling for dynamic web pages from client
+
+  ###### Contaner States
+    * Standalone - Java Based server, servlet container and web server as single (Tomcat running itself)
+    * In-Process - Separate from web server (Tomcat running inside JBoss)
+    * Out-of Process -Web server uses plugin provided by the servlet container (both are different pgms)
+  ##### Operations
+    * Security, Object Polling, Life cycle management of servlet, multithreaded support
