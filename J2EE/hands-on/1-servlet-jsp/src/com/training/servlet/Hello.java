@@ -30,5 +30,5 @@ public class Hello extends HttpServlet {
 		out.print("<h1> Hello World </h1>");
 		out.print("</body></html>");
 	}
-
+	
 }
