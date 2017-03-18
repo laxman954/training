@@ -5,7 +5,7 @@
 ### Deployment Descriptor
 
 * Deployment Descriptor is an xml file, web container get information about the servlet to be invoked
-* it named [web.xml](/J2EE/hands-on/0-no-ide-servlet/WEB-INF/web.xml)
+* it named [web.xml](/training/J2EE/hands-on/0-no-ide-servlet/WEB-INF/web.xml)
 
 >web.xml explained below
 
@@ -16,10 +16,10 @@
 
 * web.xml file present in webapp --WEB-INF in maven project  or webcontent-WEB-INF folder in the dynamic web project.
 * servlet mapping defined here
-* Sample web.xml [ here](/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml)
+* Sample web.xml [ here](/training/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml)
 
 #### welcome-file-list in web.xml
-[welcome-file-list](/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml#L4)
+[welcome-file-list](/training/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml#L4)
 >Element of webapp, to define list of welcome files, welcome-file define welcome file in that list
 
 * If you have specified welcome-file in web.xml, and all the files index.html, index.htm and index.jsp exists, priority goes to welcome-file.

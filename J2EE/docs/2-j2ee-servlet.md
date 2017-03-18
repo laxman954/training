@@ -47,7 +47,7 @@ nseWrapper, HttpServletRequestWrapper, HttpSessionEvent, HttpSessionBindingEvent
 ##### Deployment Descriptor
 * web.xml file present in webapp --WEB-INF in maven project  or webcontent-WEB-INF folder in the dynamic web project.
 * servlet mapping defined here
-* Sample web.xml [ here](/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml)
+* Sample web.xml [ here](/training/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml)
 
 [More Detalis](J2EE/docs/web-xml-explained.md) on Deployment Descriptor
 
@@ -55,7 +55,7 @@ nseWrapper, HttpServletRequestWrapper, HttpSessionEvent, HttpSessionBindingEvent
 > Servlet interface provides common behaviour to all the servlets.
 Servlet interface needs to be implemented for creating any servlet [either directly or indirectly). It provides 3 life cycle methods that are used to initialize the servlet, to service the requests, and to destroy the servlet and 2 non-life cycle methods.
 
-Refer Code Here [SevletExample.java](/J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/SevletExample.java)
+Refer Code Here [SevletExample.java](/training/J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/SevletExample.java)
 
 Read code comment understand each of life cycle methods
 
@@ -63,7 +63,7 @@ Read code comment understand each of life cycle methods
 * It implements Servlet, ServletConfig, Serializable interface, provides implementation of all methods of these interface except service method.
 * It handles any type of request, so it is protocol-independent.
 
-Refer code Here [GenericServletExample.java](/J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/GenericServletExample.java)
+Refer code Here [GenericServletExample.java](/training/J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/GenericServletExample.java)
 
 
 ###### HTTP Servlet
@@ -74,7 +74,7 @@ The mostly used approach is by extending HttpServlet because it provides http re
 * Classes are HttpServlet, Cookie, HttpServletResponse
 
 Ref: https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServlet.html
-Example Code Here [Hello.java](/J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/Hello.java)
+Example Code Here [Hello.java](/training/J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/Hello.java)
 
 ##### Life Cycle of Servlet
 ![Servlet Life cycle](images/Servlet_LifeCycle.png)
@@ -92,7 +92,7 @@ Example Code Here [Hello.java](/J2EE/hands-on/1-servlet-jsp/src/com/training/ser
   * web container calls the destroy method before removing the servlet instance from the service.
   * used for clean up any resource for example memory, thread etc.
 
-> To hands on with servlet and how its working Read and to yourself [Servlet Basics Hands-On](/J2EE/docs/3-j2ee-servlet-handson.md)
+> To hands on with servlet and how its working Read and to yourself [Servlet Basics Hands-On](/training/J2EE/docs/3-j2ee-servlet-handson.md)
 
 ***
 
