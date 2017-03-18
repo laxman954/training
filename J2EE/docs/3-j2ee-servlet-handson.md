@@ -40,14 +40,14 @@ Compile & load class path
 
 #### Create Deployment Descriptor
 * Deployment Descriptor is an xml file, web container get information about the servlet to be invoked
-* it named [web.xml](/training/J2EE/hands-on/0-no-ide-servlet/WEB-INF/web.xml)
+* it named [web.xml](https://github.com/laxman954/training/tree/master/J2EE/hands-on/0-no-ide-servlet/WEB-INF/web.xml)
 
-[More Detalis](J2EE/docs/web-xml-explained.md) on Deployment Descriptor
+[More Detalis](/training/J2EE/docs/web-xml-explained.md) on Deployment Descriptor
 
 #### Deploying
 * Start the downloaded tomcat server in command line
 * to change the port number, in apache folder conf/server.xml, Change the Connector port = 8080 and replace 8080 by any four digit number instead of 8080
-* copy the project [folder](/training/J2EE/hands-on/0-no-ide-servlet) to tomcat web apps directory
+* copy the project [folder](https://github.com/laxman954/training/tree/master/J2EE/hands-on/0-no-ide-servlet) to tomcat web apps directory
 * start the tomcat and access the url in browser http://localhost:8080/0-no-ide-servlet/hello
 
 * Other ways of deploying
@@ -71,7 +71,7 @@ Compile & load class path
 > The web container call the destroy method when it need to remove the servlet (time of stopping server, undeploy project)
 
 ##### WebContainer Handling Request
-* maps the request with the servlet in the [web.xml](/training/J2EE/hands-on/0-no-ide-servlet/WEB-INF/web.xml) file.
+* maps the request with the servlet in the [web.xml](https://github.com/laxman954/training/tree/master/J2EE/hands-on/0-no-ide-servlet/WEB-INF/web.xml) file.
 * creates request and response objects for this request
 * calls the service method on the thread
 * The [public service](https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServlet.html#service-javax.servlet.ServletRequest-javax.servlet.ServletResponse-) method internally calls the protected service method
