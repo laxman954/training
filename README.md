@@ -22,6 +22,9 @@ Below are the details this repo contains, i keep update here any new things adde
 [Servlet & API](/J2EE/docs/2-j2ee-servlet.md)
 :	Covers Servlet, Container, States, Operations, Sevlet API & Interfaces, Life Cycle of Servlet
 
+[Servlet hands-on](/J2EE/docs/3-j2ee-servlet-handson.md)
+: Covers Servlet Simpe HandsOn using HttpServlet, Compile & Deploying Serlvet, Explained web.xml
+
 ----------------
 #### Database
 ##### MySQL
