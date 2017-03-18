@@ -1,3 +1,6 @@
+[Go to Home Page](/)
+***
+
 ### Deployment Descriptor
 
 * Deployment Descriptor is an xml file, web container get information about the servlet to be invoked

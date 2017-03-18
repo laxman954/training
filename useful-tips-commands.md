@@ -1,3 +1,6 @@
+[Go to Home Page](/)
+***
+
 ### Useful Commands
 
 >This page documented mostly used comments.

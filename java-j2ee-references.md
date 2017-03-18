@@ -1,3 +1,6 @@
+[Go to Home Page](/)
+***
+
 #### Find the below for JAVA/J2EE References, concepts, best practices
 
 ###### Study java basic concepts thoroughly -syntax not important
