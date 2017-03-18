@@ -52,3 +52,9 @@
   * Also Know as MIME (Multipurpose internet Mail Extension)
   * You can find in http header- provides the description of what sending to browser
   * [REF - MIME_types] (https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+
+  ***
+
+  [Go to Home Page](/training)
+
+  ***

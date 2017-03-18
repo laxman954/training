@@ -35,3 +35,10 @@
   ##### Req:
     * need create privilege for the db
     *
+
+
+***
+
+[Go to Home Page](/training)
+
+***

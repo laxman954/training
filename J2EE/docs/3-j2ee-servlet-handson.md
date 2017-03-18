@@ -82,3 +82,9 @@ Compile & load class path
 Ref: Src code of [HttpServlet.java](http://grepcode.com/file/repo1.maven.org/maven2/javax.servlet/servlet-api/2.5/javax/servlet/http/HttpServlet.java)
 
 > Tips - to extract war file use `jar -xvf warproject.war`
+
+***
+
+[Go to Home Page](/training)
+
+***

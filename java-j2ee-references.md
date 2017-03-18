@@ -101,3 +101,9 @@
 * Refer to objects by their interfaces
 * Code that has been "commented out" should be explained or removed.
 * Code that needs to be reworked should have a TODO comment and a clear explanation of what needs to be done.
+
+***
+
+[Go to Home Page](/training)
+
+***

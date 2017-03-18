@@ -140,3 +140,11 @@ mysql> SHOW COLLATION WHERE Charset = 'utf8';
 > [Collation name](http://dev.mysql.com/doc/refman/5.5/en/charset-collation-names.html) starts with name of the character set they associated
 
 When a character set has multiple collations, it might not be clear which collation is most suitable for a given application. To avoid choosing an inappropriate collation, perform some comparisons with representative data values to make sure that a given collation sorts values the way you expect.
+
+
+
+***
+
+[Go to Home Page](/training)
+
+***

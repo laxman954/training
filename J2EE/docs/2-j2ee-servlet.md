@@ -93,3 +93,9 @@ Example Code Here [Hello.java](/J2EE/hands-on/1-servlet-jsp/src/com/training/ser
   * used for clean up any resource for example memory, thread etc.
 
 > To hands on with servlet and how its working Read and to yourself [Servlet Basics Hands-On](/J2EE/docs/3-j2ee-servlet-handson.md)
+
+***
+
+[Go to Home Page](/training)
+
+***

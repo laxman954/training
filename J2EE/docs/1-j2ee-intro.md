@@ -7,7 +7,7 @@
 It Offers multitiered distributed application model, the ability to reuse components,  integrated Extensible Markup Language (XML)-based data interchange, a unified security model, and flexible transaction control.
 
 
-This will cover below Topics to cover J2EE concepts
+#### This will cover below J2EE concepts
 
 ### Multitiered Applications
 >  Application logic is divided into components according to function, and the various application components that make up a J2EE application are installed on different machines depending on the tier in the multitiered J2EE environment to which the application component belongs.
@@ -66,3 +66,9 @@ The J2EE APIs enable systems and applications integration through the following:
 * Simplified Interoperability - J2EE Connector Arch
 * DB Connectivity - JDBC API
 * Enterprise Appln Integration with  - JSM, JNDI , JTA
+
+***
+
+[Go to Home Page](/training)
+
+***

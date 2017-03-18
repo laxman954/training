@@ -39,3 +39,9 @@
 * To extract war file use
 
   `jar -xvf warproject.war`
+
+***
+
+[Go to Home Page](/training)
+
+***
