@@ -1,3 +1,7 @@
+[Go to Home Page](/)
+
+***
+
 ## MySQL
 
 ### [Create Database](http://dev.mysql.com/doc/refman/5.5/en/create-database.html)

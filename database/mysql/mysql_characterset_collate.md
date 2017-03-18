@@ -1,3 +1,7 @@
+[Go to Home Page](/)
+
+***
+
 ### Character Set & Collate?
 
 > MySQL Character set support that enables you _store data_ using of _character set_
