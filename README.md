@@ -1,26 +1,18 @@
-Technology Training Materials
-=============================
+## Technology Training Materials
+----------------
 
 This repo contains Training and Source Code Example for Java Technology Related study Materials, i will keep update these. It contains sample source codes, study docs from different sources.
 
-------
-Documents
 ----------------
+
+### Documents
+
 Below are the details this repo contains, i keep update here any new things added.
 
 ------
 #### Web Introduction
 [Web Basics](/web/1-web-basics.md)
 :	Explains basic web Terminology, HTTP, Different Request Type, Content Type,
-
-----------------
-
-#### Issues & Other Useful
-[Issues & Resolution](issues)
-: Here we log issues we are faced and theis resolution, check this & update if any issues.
-
-[Useful Tips & Commands](useful-tips-commands.md)
-: Here documented what are comments used mostly useful
 
 ----------------
 #### J2EE Materials
@@ -44,3 +36,11 @@ Below are the details this repo contains, i keep update here any new things adde
 :	Covers usage, issues, How Character set and Collaction in mysql
 
 ----------------
+
+
+#### Issues & Other Useful
+[Issues & Resolution](issues)
+: Here we log issues we are faced and theis resolution, check this & update if any issues.
+
+[Useful Tips & Commands](useful-tips-commands.md)
+: Here documented what are comments used mostly useful

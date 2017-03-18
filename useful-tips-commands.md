@@ -2,8 +2,8 @@
 
 >This page documented mostly used comments.
 
-* [Server Tips & Commands]()
-* [Java Related Commands]()
+* [Server Tips & Commands](/useful-tips-commands.md#server-relate-tips--commands)
+* [Java Related Commands](useful-tips-commands.md#java-related-tips--commands)
 * [Shortcuts]()
 * [Database Commands]()
 
@@ -29,7 +29,7 @@
   * **-c** is used to create file,
   * **-v** to generate the verbose output and
   * **-f** to specify the arhive file name.
-  * The ***** (asterisk) symbol signifies that all the files of this directory (including sub directory).
+  * The * (asterisk) symbol signifies that all the files of this directory (including sub directory).
 
 
 * To extract war file use
