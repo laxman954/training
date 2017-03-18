@@ -1,7 +1,7 @@
 ### J2EE
 * [About Servlet](2-j2ee-servlet.md#about-servlet)
 * [Deployment Descriptor](2-j2ee-servlet.md#deployment-descriptor)
-* [Web Container](2-j2ee-servlet.md#deployment-descriptor)
+* [Web Container](2-j2ee-servlet.md#servlet-container)
 * [Servlet Container](2-j2ee-servlet.md#servlet-container)
   * [Contaner States](2-j2ee-servlet.md#contaner-states)
   * [Operations](2-j2ee-servlet.md#operations)
