@@ -2,7 +2,10 @@
 >> J2EE  technology provides a component-based approach to the design, development, assembly, and deployment of enterprise applications.
 It Offers multitiered distributed application model, the ability to reuse components,  integrated Extensible Markup Language (XML)-based data interchange, a unified security model, and flexible transaction control.
 
+
 This will cover below Topics to cover J2EE concepts
+
+[TOC]
 
 #### Multitiered Applications
 >>  Application logic is divided into components according to function, and the various application components that make up a J2EE application are installed on different machines depending on the tier in the multitiered J2EE environment to which the application component belongs.

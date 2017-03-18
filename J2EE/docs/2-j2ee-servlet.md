@@ -1,17 +1,5 @@
 ### J2EE
-* [About Servlet](2-j2ee-servlet.md#about-servlet)
-* [Deployment Descriptor]()
-* [Web Container](2-j2ee-servlet.md#deployment-descriptor)
-* [Servlet Container](2-j2ee-servlet.md#servlet-container)
-  * [Contaner States](2-j2ee-servlet.md#contaner-states)
-  * [Operations](2-j2ee-servlet.md#operations)
-* [Servlet API](2-j2ee-servlet.md#servlet-api)
-  * [Servlet Interfaces](2-j2ee-servlet.md#servlet-interfaces)
-  * [GenericServlet](2-j2ee-servlet.md#generic-servlet)
-  * [HttpServlet](2-j2ee-servlet.md#http-servlet)
-* [Life Cycle of Servlet](2-j2ee-servlet.md#life-cycle-of-servlet)
-* []()
-
+[TOC]
 ##### About Servlet
 * Interfae b/w Appln Server, Web Server
 * Receive Request and generates dynamic Response

@@ -7,6 +7,8 @@
 ###### Content Type
 ###### Web vs Application Server
 
+[TOC]
+
 ##### HTTP
   * TCP/IP based communication protocol
   * Allow webserver and browser to exchange data over the web
