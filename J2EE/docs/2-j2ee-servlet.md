@@ -62,9 +62,9 @@ Refer code Here [GenericServletExample.java](/J2EE/hands-on/1-servlet-jsp/src/co
 
 
 ###### HTTP Servlet
-We mostly uses http servlet packes for web requests
+The mostly used approach is by extending HttpServlet because it provides http request 
 * This class [HttpServlet) extends Generic Servlet
-* It provides http specific methods like doGet, doPost, etc...
+* 	It provides http specific methods like doGet, doPost, etc...
 * Some interfaces are HttpServletRequest, HttpServletResponse, HttpSession, HttpSessionListener, HttpSessionAttributeListener, HttpSessionBindingListener, HttpSessionActivationListener
 * Classes are HttpServlet, Cookie, HttpServletResponse
 

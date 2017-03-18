@@ -13,7 +13,7 @@ Below are the details this repo contains, i keep update here any new things adde
 [Web Basics](/web/1-web-basics.md)
 :	Explains basic web Terminology, HTTP, Different Request Type, Content Type,
 
------
+----------------
 #### J2EE Materials
 
 [J2EE Introduction](/J2EE/docs/1-j2ee-intro.md)
@@ -22,7 +22,7 @@ Below are the details this repo contains, i keep update here any new things adde
 [Servlet & API](/J2EE/docs/2-j2ee-servlet.md)
 :	Covers Servlet, Container, States, Operations, Sevlet API & Interfaces, Life Cycle of Servlet
 
-------
+----------------
 #### Database
 ##### MySQL
 [MySQL  Database Creation](/database/mysql/mysql_create_db.md)
@@ -30,3 +30,5 @@ Below are the details this repo contains, i keep update here any new things adde
 
 [Character Set & Collate](/database/mysql/mysql_characterset_collate.md)
 :	Covers usage, issues, How Character set and Collaction in mysql
+
+----------------

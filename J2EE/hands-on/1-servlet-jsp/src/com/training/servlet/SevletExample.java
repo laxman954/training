@@ -11,6 +11,11 @@ import javax.servlet.ServletResponse;
 
 /**
  * @author lperumalm
+ * 
+ *         Servlet interface needs to be implemented for creating any servlet
+ *         [either directly or indirectly). It provides 3 life cycle methods
+ *         that are used to initialize the servlet, to service the requests, and
+ *         to destroy the servlet and 2 non-life cycle methods.
  *
  */
 public class SevletExample implements Servlet {
@@ -18,7 +23,9 @@ public class SevletExample implements Servlet {
 	ServletConfig config = null;
 
 	/*
-	 * initializes the servlet. It is the life cycle method of servlet and invoked by the web container only once.
+	 * initializes the servlet. It is the life cycle method of servlet and
+	 * invoked by the web container only once.
+	 * 
 	 * @see javax.servlet.Servlet#init(javax.servlet.ServletConfig)
 	 */
 	public void init(ServletConfig config) {
@@ -27,8 +34,11 @@ public class SevletExample implements Servlet {
 	}
 
 	/*
-	 * provides response for the incoming request. It is invoked at each request by the web container.
-	 * @see javax.servlet.Servlet#service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+	 * provides response for the incoming request. It is invoked at each request
+	 * by the web container.
+	 * 
+	 * @see javax.servlet.Servlet#service(javax.servlet.ServletRequest,
+	 * javax.servlet.ServletResponse)
 	 */
 	public void service(ServletRequest req, ServletResponse res) throws IOException, ServletException {
 
@@ -43,6 +53,7 @@ public class SevletExample implements Servlet {
 
 	/*
 	 * is invoked only once and indicates that servlet is being destroyed.
+	 * 
 	 * @see javax.servlet.Servlet#destroy()
 	 */
 	public void destroy() {
@@ -51,6 +62,7 @@ public class SevletExample implements Servlet {
 
 	/*
 	 * returns the object of ServletConfig.
+	 * 
 	 * @see javax.servlet.Servlet#getServletConfig()
 	 */
 	public ServletConfig getServletConfig() {
@@ -59,6 +71,7 @@ public class SevletExample implements Servlet {
 
 	/*
 	 * returns information about servlet such as writer, copyright, version etc.
+	 * 
 	 * @see javax.servlet.Servlet#getServletInfo()
 	 */
 	public String getServletInfo() {

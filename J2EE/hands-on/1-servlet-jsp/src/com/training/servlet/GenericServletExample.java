@@ -8,18 +8,26 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
+/**
+ * @author lperumalm
+ * 
+ *         Provides implementation of all methods of these interface except
+ *         service method.It handles any type of request, so it is
+ *         protocol-independent.
+ *
+ */
 public class GenericServletExample extends GenericServlet {
 
 	private static final long serialVersionUID = 1L;
 
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-		res.setContentType("text/html");  
-		  
-		PrintWriter out=res.getWriter();  
-		out.print("<html><body>");  
-		out.print("<b>hello generic servlet</b>");  
-		out.print("</body></html>");  
+		res.setContentType("text/html");
+
+		PrintWriter out = res.getWriter();
+		out.print("<html><body>");
+		out.print("<b>hello generic servlet</b>");
+		out.print("</body></html>");
 	}
 
 }
