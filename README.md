@@ -7,10 +7,10 @@ This repo contains Training and Source Code Example for Java Technology Related 
 
 Below are the details this repo contains, i keep update here any new things added.
 
-* (Web Introduction)[#web-introduction]
-* (J2EE Materials)[#j2ee-materials]
-* (Database)[#database]
-* (Issues & Other Useful)[#issues--other-useful]
+* [Web Introduction](#web-introduction)
+* [J2EE Materials](#j2ee-materials)
+* [Database](#database)
+* [Issues & Other Useful](#issues--other-useful)
 
 ***
 #### Web Introduction
