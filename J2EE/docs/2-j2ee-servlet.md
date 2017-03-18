@@ -49,7 +49,7 @@ nseWrapper, HttpServletRequestWrapper, HttpSessionEvent, HttpSessionBindingEvent
 * servlet mapping defined here
 * Sample web.xml [ here](/training/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml)
 
-[More Detalis](J2EE/docs/web-xml-explained.md) on Deployment Descriptor
+[More Detalis](/training/J2EE/docs/web-xml-explained.html) on Deployment Descriptor
 
 ###### Servlet Interfaces
 > Servlet interface provides common behaviour to all the servlets.
@@ -92,7 +92,7 @@ Example Code Here [Hello.java](/training/J2EE/hands-on/1-servlet-jsp/src/com/tra
   * web container calls the destroy method before removing the servlet instance from the service.
   * used for clean up any resource for example memory, thread etc.
 
-> To hands on with servlet and how its working Read and to yourself [Servlet Basics Hands-On](/training/J2EE/docs/3-j2ee-servlet-handson.md)
+> To hands on with servlet and how its working Read and to yourself [Servlet Basics Hands-On](/training/J2EE/docs/3-j2ee-servlet-handson.html)
 
 ***
 
