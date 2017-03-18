@@ -42,7 +42,7 @@ Compile & load class path
 * Deployment Descriptor is an xml file, web container get information about the servlet to be invoked
 * it named [web.xml](https://github.com/laxman954/training/tree/master/J2EE/hands-on/0-no-ide-servlet/WEB-INF/web.xml)
 
-[More Detalis](/training/J2EE/docs/web-xml-explained.md) on Deployment Descriptor
+[More Detalis](/training/J2EE/docs/web-xml-explained.html) on Deployment Descriptor
 
 #### Deploying
 * Start the downloaded tomcat server in command line
@@ -67,7 +67,7 @@ Compile & load class path
 ***
 #### How Servlet Works
 
-> As we studied in [Servlet Life Cycle](/training/J2EE/docs/2-j2ee-servlet.md#life-cycle-of-servlet) if the server requested first time web container load the servlet class, instantiate it, call the init method, other wise call the service method directly.
+> As we studied in [Servlet Life Cycle](/training/J2EE/docs/2-j2ee-servlet.html#life-cycle-of-servlet) if the server requested first time web container load the servlet class, instantiate it, call the init method, other wise call the service method directly.
 > The web container call the destroy method when it need to remove the servlet (time of stopping server, undeploy project)
 
 ##### WebContainer Handling Request
