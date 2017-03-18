@@ -12,7 +12,7 @@
 * [Life Cycle of Servlet](2-j2ee-servlet.md#life-cycle-of-servlet)
 * [Load On Start up]()
 
-##### About Servlet
+#### About Servlet
 * Interfae b/w Appln Server, Web Server
 * Receive Request and generates dynamic Response
 
@@ -25,15 +25,15 @@
   * so servlet can handle multiple request at same time
   * we mostly use HttpServlet
 
-###### Container States
+##### Container States
 * Standalone - Java Based server, servlet container and web server as single [Tomcat running itself)
 * In-Process - Separate from web server [Tomcat running inside JBoss)
 * Out-of Process -Web server uses plugin provided by the servlet container [both are different pgms)
 
-##### Operations
+###### Operations
 * Security, Object Polling, Life cycle management of servlet, multithreaded support
 
-##### Servlet API
+#### Servlet API
 * Two important packages javax.servlet and javax.servlet.https
   * sevlet packges contains contains classes and Interfaces used by servlet and web container
   * servlet.http responsible for http request only.
@@ -88,4 +88,4 @@ Example Code Here [Hello.java](/J2EE/hands-on/1-servlet-jsp/src/com/training/ser
   * web container calls the destroy method before removing the servlet instance from the service.
   * used for clean up any resource for example memory, thread etc.
 
-  > To hands on with servlet and how its working Read and to yourself [Servlet Basics Hands-On](/J2EE/docs/3-j2ee-servlet-handson.md)
+> To hands on with servlet and how its working Read and to yourself [Servlet Basics Hands-On](/J2EE/docs/3-j2ee-servlet-handson.md)

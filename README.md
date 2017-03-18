@@ -14,6 +14,15 @@ Below are the details this repo contains, i keep update here any new things adde
 :	Explains basic web Terminology, HTTP, Different Request Type, Content Type,
 
 ----------------
+
+#### Issues & Other Useful
+[Issues & Resolution](issues)
+: Here we log issues we are faced and theis resolution, check this & update if any issues.
+
+[Useful Tips & Commands](useful-tips-commands.md)
+: Here documented what are comments used mostly useful
+
+----------------
 #### J2EE Materials
 
 [J2EE Introduction](/J2EE/docs/1-j2ee-intro.md)
