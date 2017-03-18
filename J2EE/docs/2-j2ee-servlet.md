@@ -1,16 +1,16 @@
 ### J2EE
-* [About Servlet] (2-j2ee-servlet.md#about-servlet)
-* [Deployment Descriptor] ()
-* [Web Container] (2-j2ee-servlet.md#deployment-descriptor)
-* [Servlet Container] (2-j2ee-servlet.md#servlet-container)
-  * [Contaner States] (2-j2ee-servlet.md#contaner-states)
-  * [Operations] (2-j2ee-servlet.md#operations)
-* [Servlet API] (2-j2ee-servlet.md#servlet-api)
-  * [Servlet Interfaces] (2-j2ee-servlet.md#servlet-interfaces)
-  * [GenericServlet] (2-j2ee-servlet.md#generic-servlet)
-  * [HttpServlet] (2-j2ee-servlet.md#http-servlet)
-* [Life Cycle of Servlet] (2-j2ee-servlet.md#life-cycle-of-servlet)
-* [] ()
+* [About Servlet](2-j2ee-servlet.md#about-servlet)
+* [Deployment Descriptor]()
+* [Web Container](2-j2ee-servlet.md#deployment-descriptor)
+* [Servlet Container](2-j2ee-servlet.md#servlet-container)
+  * [Contaner States](2-j2ee-servlet.md#contaner-states)
+  * [Operations](2-j2ee-servlet.md#operations)
+* [Servlet API](2-j2ee-servlet.md#servlet-api)
+  * [Servlet Interfaces](2-j2ee-servlet.md#servlet-interfaces)
+  * [GenericServlet](2-j2ee-servlet.md#generic-servlet)
+  * [HttpServlet](2-j2ee-servlet.md#http-servlet)
+* [Life Cycle of Servlet](2-j2ee-servlet.md#life-cycle-of-servlet)
+* []()
 
 ##### About Servlet
 * Interfae b/w Appln Server, Web Server
@@ -43,14 +43,14 @@ nseWrapper, HttpServletRequestWrapper, HttpSessionEvent, HttpSessionBindingEvent
 ##### Deployment Descriptor
 * web.xml file present in webapp --WEB-INF in maven project  or webcontent-WEB-INF folder in the dynamic web project.
 * servlet mapping defined here
-* Sample web.xml [ here] (training/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml)
+* Sample web.xml [ here](training/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml)
 
 
 ###### Servlet Interfaces
 > Servlet interface provides common behaviour to all the servlets.
 Servlet interface needs to be implemented for creating any servlet [either directly or indirectly). It provides 3 life cycle methods that are used to initialize the servlet, to service the requests, and to destroy the servlet and 2 non-life cycle methods.
 
-Refer Code Here [SevletExample.java] ( J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/SevletExample.java)
+Refer Code Here [SevletExample.java]( J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/SevletExample.java)
 
 Read code comment understand each of life cycle methods
 
@@ -58,7 +58,7 @@ Read code comment understand each of life cycle methods
 * It implements Servlet, ServletConfig, Serializable interface, provides implementation of all methods of these interface except service method.
 * It handles any type of request, so it is protocol-independent.
 
-Refer code Here [GenericServletExample.java] (J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/GenericServletExample.java)
+Refer code Here [GenericServletExample.java](J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/GenericServletExample.java)
 
 
 ###### HTTP Servlet
@@ -68,10 +68,10 @@ We mostly uses http servlet packes for web requests
 * Some interfaces are HttpServletRequest, HttpServletResponse, HttpSession, HttpSessionListener, HttpSessionAttributeListener, HttpSessionBindingListener, HttpSessionActivationListener
 * Classes are HttpServlet, Cookie, HttpServletResponse
 
-Example Code Here [Hello.java] (J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/Hello.java)
+Example Code Here [Hello.java](J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/Hello.java)
 
 ##### Life Cycle of Servlet
-![Servlet Life cycle )[images/Servlet_LifeCycle.png)
+![Servlet Life cycle](images/Servlet_LifeCycle.png)
 * Servlet Class Loaded
   * class loader responsible for load servlet class [It load when first request received by web container)
 * Servlet Instance created
