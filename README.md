@@ -39,7 +39,7 @@ Below are the details this repo contains, i keep update here any new things adde
 
 
 #### Issues & Other Useful
-[Issues & Resolution](issues)
+[Issues & Resolution](issues/java-issues.md)
 : Here we log issues we are faced and theis resolution, check this & update if any issues.
 
 [Useful Tips & Commands](useful-tips-commands.md)
