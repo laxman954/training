@@ -34,7 +34,7 @@
 * In-Process - Separate from web server [Tomcat running inside JBoss)
 * Out-of Process -Web server uses plugin provided by the servlet container [both are different pgms)
 
-###### Operations
+##### Operations
 * Security, Object Polling, Life cycle management of servlet, multithreaded support
 
 #### Servlet API

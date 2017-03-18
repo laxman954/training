@@ -41,6 +41,8 @@
       * It is a computer where the web content can be stored. In general web server can be used to host the web sites but there also used some other web servers also such as FTP, email, storage etc.
       * E.g Tomcat
       ![Web Server ](images/server-web-vs-application1.png)
+
+
   * Application Server
       * It is a component based product that lies in the middle-tier of a server centric architecture.
       * It provides the middleware services for state maintenance and security, along with persistence and data access.
