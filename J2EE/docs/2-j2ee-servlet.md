@@ -1,6 +1,6 @@
 ### J2EE
 * [About Servlet](2-j2ee-servlet.md#about-servlet)
-* [Deployment Descriptor]()
+* [Deployment Descriptor](2-j2ee-servlet.md#deployment-descriptor)
 * [Web Container](2-j2ee-servlet.md#deployment-descriptor)
 * [Servlet Container](2-j2ee-servlet.md#servlet-container)
   * [Contaner States](2-j2ee-servlet.md#contaner-states)
@@ -10,7 +10,7 @@
   * [GenericServlet](2-j2ee-servlet.md#generic-servlet)
   * [HttpServlet](2-j2ee-servlet.md#http-servlet)
 * [Life Cycle of Servlet](2-j2ee-servlet.md#life-cycle-of-servlet)
-* []()
+* [Load On Start up]()
 
 ##### About Servlet
 * Interfae b/w Appln Server, Web Server
@@ -25,7 +25,7 @@
   * so servlet can handle multiple request at same time
   * we mostly use HttpServlet
 
-###### Contaner States
+###### Container States
 * Standalone - Java Based server, servlet container and web server as single [Tomcat running itself)
 * In-Process - Separate from web server [Tomcat running inside JBoss)
 * Out-of Process -Web server uses plugin provided by the servlet container [both are different pgms)
@@ -45,6 +45,7 @@ nseWrapper, HttpServletRequestWrapper, HttpSessionEvent, HttpSessionBindingEvent
 * servlet mapping defined here
 * Sample web.xml [ here](/J2EE/hands-on/1-servlet-jsp/WebContent/WEB-INF/web.xml)
 
+[More Detalis](J2EE/docs/web-xml-explained.md) on Deployment Descriptor
 
 ###### Servlet Interfaces
 > Servlet interface provides common behaviour to all the servlets.
@@ -62,12 +63,13 @@ Refer code Here [GenericServletExample.java](/J2EE/hands-on/1-servlet-jsp/src/co
 
 
 ###### HTTP Servlet
-The mostly used approach is by extending HttpServlet because it provides http request 
+The mostly used approach is by extending HttpServlet because it provides http request
 * This class [HttpServlet) extends Generic Servlet
 * 	It provides http specific methods like doGet, doPost, etc...
 * Some interfaces are HttpServletRequest, HttpServletResponse, HttpSession, HttpSessionListener, HttpSessionAttributeListener, HttpSessionBindingListener, HttpSessionActivationListener
 * Classes are HttpServlet, Cookie, HttpServletResponse
 
+Ref: https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServlet.html
 Example Code Here [Hello.java](/J2EE/hands-on/1-servlet-jsp/src/com/training/servlet/Hello.java)
 
 ##### Life Cycle of Servlet
@@ -85,3 +87,5 @@ Example Code Here [Hello.java](/J2EE/hands-on/1-servlet-jsp/src/com/training/ser
 * destroy method called
   * web container calls the destroy method before removing the servlet instance from the service.
   * used for clean up any resource for example memory, thread etc.
+
+  > To hands on with servlet and how its working Read and to yourself [Servlet Basics Hands-On](/J2EE/docs/3-j2ee-servlet-handson.md)
