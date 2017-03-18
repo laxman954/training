@@ -1,4 +1,4 @@
-[Go to Home Page](/)
+[Go to Home Page](/training)
 
 ***
 
