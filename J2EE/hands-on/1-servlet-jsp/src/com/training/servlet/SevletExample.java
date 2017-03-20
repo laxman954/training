@@ -30,7 +30,7 @@ public class SevletExample implements Servlet {
 	 */
 	public void init(ServletConfig config) {
 		this.config = config;
-		System.out.println("servlet is initialized");
+		System.out.println("servlet is initialized servlet");
 	}
 
 	/*
@@ -42,6 +42,7 @@ public class SevletExample implements Servlet {
 	 */
 	public void service(ServletRequest req, ServletResponse res) throws IOException, ServletException {
 
+		System.out.println("Service MEthod Call - Servlet");
 		res.setContentType("text/html");
 
 		PrintWriter out = res.getWriter();

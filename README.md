@@ -29,7 +29,7 @@ Below are the details this repo contains, i keep update here any new things adde
 [Servlet hands-on](/J2EE/docs/3-j2ee-servlet-handson.md)
 : Covers Servlet Simpe HandsOn using HttpServlet, Compile & Deploying Serlvet, Explained web.xml
 
-[J2EE HandsOn](/J2EE/docs/hands-on)
+[J2EE HandsOn](https://github.com/laxman954/training/tree/master/J2EE/hands-on)
 : You can find All the source code will here
 
 ***

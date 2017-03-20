@@ -24,6 +24,8 @@ public class GenericServletExample extends GenericServlet {
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		res.setContentType("text/html");
 
+		System.out.println("Service MEthod Call - GenericServlet");
+		
 		PrintWriter out = res.getWriter();
 		out.print("<html><body>");
 		out.print("<b>hello generic servlet</b>");
