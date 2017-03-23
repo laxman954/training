@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee"  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>first</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>loginform.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<display-name>Sample Login Page</display-name>
+  	<servlet-name>login</servlet-name>
+  	<servlet-class>com.training.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>login</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<display-name>Profile Page</display-name>
+  	<servlet-name>profile</servlet-name>
+  	<servlet-class>com.training.controller.ProfileController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>profile</servlet-name>
+  	<url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<display-name>Search Page Sample Send Redirect</display-name>
+  	<servlet-name>search-servlet</servlet-name>
+  	<servlet-class>com.training.controller.SearchController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>search-servlet</servlet-name>
+  	<url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<display-name>Servlet Config Sample</display-name>
+  	<servlet-name>servlet-config</servlet-name>
+  	<servlet-class>com.training.controller.ServletConfigController</servlet-class>
+  	<init-param>
+  		<param-name>application-name</param-name>
+  		<param-value>JAVA/J2EE Training</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>local-name</param-name>
+  		<param-value>en_IN</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servlet-config</servlet-name>
+  	<url-pattern>/s-config</url-pattern>
+  </servlet-mapping>
+  </web-app>
