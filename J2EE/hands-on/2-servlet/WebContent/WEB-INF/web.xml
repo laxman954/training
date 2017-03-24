@@ -7,8 +7,9 @@
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
-    <welcome-file>loginform.jsp</welcome-file>
   </welcome-file-list>
+  
+  <!-- Below Are For Session 4  -->
   
   <servlet>
   	<display-name>Sample Login Page</display-name>
@@ -29,6 +30,8 @@
   	<servlet-name>profile</servlet-name>
   	<url-pattern>/profile</url-pattern>
   </servlet-mapping>
+  
+  <!-- Below Are For Session 5  -->
   
   <servlet>
   	<display-name>Search Page Sample Send Redirect</display-name>
@@ -57,4 +60,52 @@
   	<servlet-name>servlet-config</servlet-name>
   	<url-pattern>/s-config</url-pattern>
   </servlet-mapping>
+  
+  <!-- Below Are For Session 6  -->
+  
+  <context-param>
+  		<param-name>DriverName</param-name>
+  		<param-value>jdbc Driver</param-value>
+  </context-param>
+  
+  <servlet>
+  	<display-name>Servlet Context Param Sample</display-name>
+  	<servlet-name>servlet-contextParam</servlet-name>
+  	<servlet-class>com.training.controller.ServletContextExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servlet-contextParam</servlet-name>
+  	<url-pattern>/s-contextparam</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<display-name>Servlet Set Attribute Sample</display-name>
+  	<servlet-name>servlet-setattribute</servlet-name>
+  	<servlet-class>com.training.attribute.controller.ServletSetAttributeExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servlet-setattribute</servlet-name>
+  	<url-pattern>/s-setattribute</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<display-name>Servlet Get Attribute Sample</display-name>
+  	<servlet-name>servlet-getattribute</servlet-name>
+  	<servlet-class>com.training.attribute.controller.ServletGetAttributeExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servlet-getattribute</servlet-name>
+  	<url-pattern>/s-getattribute</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<display-name>Servlet Cookie Sample</display-name>
+  	<servlet-name>cookielogin</servlet-name>
+  	<servlet-class>com.training.session.controller.CookieSessionTrackSample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>cookielogin</servlet-name>
+  	<url-pattern>/cookieLogin</url-pattern>
+  </servlet-mapping>
+  
   </web-app>
