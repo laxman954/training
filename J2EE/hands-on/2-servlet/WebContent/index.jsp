@@ -34,6 +34,14 @@
 		<li>
 			<h3>Session 6 - Go to <a href="cookieLogin">Cookie Login </a> (UnderStading Cookie ) </h3> 
 		</li>
+		
+		<li>
+			<h3>Session 7 - Go to <a href="sessionLogin">Session Login </a> (UnderStading HttpSession ) </h3> 
+		</li>
+		
+		<li>
+			<h3>Session 7 - Go to <a href="getActiveUser">Get Active number of user </a> (UnderStading Listener ) </h3> 
+		</li>
 	</ul>
 </body>
 </html>

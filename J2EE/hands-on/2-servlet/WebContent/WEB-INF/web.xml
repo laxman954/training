@@ -108,4 +108,40 @@
   	<url-pattern>/cookieLogin</url-pattern>
   </servlet-mapping>
   
+   <!-- Below Are For Session 7 Planning to take coming saturday evening  -->
+   
+  <servlet>
+  	<display-name>Servlet Session Sample</display-name>
+  	<servlet-name>sessionLogin</servlet-name>
+  	<servlet-class>com.training.session.controller.HttpSessionSample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>sessionLogin</servlet-name>
+  	<url-pattern>/sessionLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<display-name>Servlet Session Logout Sample</display-name>
+  	<servlet-name>sessionLogout</servlet-name>
+  	<servlet-class>com.training.session.controller.HttpSessionLogoutExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>sessionLogout</servlet-name>
+  	<url-pattern>/sessionLogout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<display-name>Servlet Session Logout Sample</display-name>
+  	<servlet-name>getActiveUser</servlet-name>
+  	<servlet-class>com.training.session.controller.GetActiveUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>getActiveUser</servlet-name>
+  	<url-pattern>/getActiveUser</url-pattern>
+  </servlet-mapping>
+  
+  
+  <listener>
+  	<listener-class>com.training.session.controller.HttpSessionCounterListener</listener-class>
+  </listener>
   </web-app>
