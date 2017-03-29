@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 public class HttpSessionSample extends HttpServlet {
 
 	private static final String SESSION_PROFILE_JSP = "sessionProfile.jsp";
-	private static final String SESSION_LOGIN_JSP = "sessionlogin.jsp";
+	private static final String SESSION_LOGIN_JSP = "sessionLogin.jsp";
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

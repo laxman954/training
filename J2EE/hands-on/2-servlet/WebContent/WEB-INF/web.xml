@@ -108,7 +108,7 @@
   	<url-pattern>/cookieLogin</url-pattern>
   </servlet-mapping>
   
-   <!-- Below Are For Session 7 Planning to take coming saturday evening  -->
+   <!-- Below Are For Session 7 Planning  -->
    
   <servlet>
   	<display-name>Servlet Session Sample</display-name>
