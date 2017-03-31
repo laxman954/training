@@ -108,7 +108,7 @@
   	<url-pattern>/cookieLogin</url-pattern>
   </servlet-mapping>
   
-   <!-- Below Are For Session 7 Planning  -->
+   <!-- Below Are For Session 7   -->
    
   <servlet>
   	<display-name>Servlet Session Sample</display-name>
@@ -140,8 +140,42 @@
   	<url-pattern>/getActiveUser</url-pattern>
   </servlet-mapping>
   
-  
   <listener>
   	<listener-class>com.training.session.controller.HttpSessionCounterListener</listener-class>
   </listener>
+  
+  <!-- Below Are For Session 8 Planning  -->
+  
+  <servlet>
+  	<display-name>Servlet-Filter </display-name>
+  	<servlet-name>FilterServlet</servlet-name>
+  	<servlet-class>com.training.filter.FilterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FilterServlet</servlet-name>
+  	<url-pattern>/servlet-filter</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  	<filter-name>ValidateNameFilter</filter-name>
+  	<filter-class>com.training.filter.ValidateNameFilter</filter-class>
+  	<init-param>
+  		<param-name>isMaintenace</param-name>
+  		<param-value>true</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>ValidateNameFilter</filter-name>
+  	<url-pattern>/servlet-filter</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+  	<display-name>Servlet-IO Stream </display-name>
+  	<servlet-name>ServletIOStream</servlet-name>
+  	<servlet-class>com.training.io.stream.ServletStreamSample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletIOStream</servlet-name>
+  	<url-pattern>/servlet-iostream</url-pattern>
+  </servlet-mapping>
   </web-app>

@@ -21,6 +21,7 @@
 * Collection class and methods, map and entryset,iterator
 * basic about thread
 * object class and methods
+* comparable & comparator
 
 ###### Java EE
 

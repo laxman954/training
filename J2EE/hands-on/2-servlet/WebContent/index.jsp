@@ -42,6 +42,10 @@
 		<li>
 			<h3>Session 7 - Go to <a href="getActiveUser">Get Active number of user </a> (UnderStading Listener ) </h3> 
 		</li>
+		
+		<li>
+			<h3>Session 8 - Go to <a href="servlet-filter">Servlet Filter </a> (UnderStading Filter, FilterChain, FilterConfig ) </h3> 
+		</li>
 	</ul>
 </body>
 </html>
